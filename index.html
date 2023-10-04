@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-Awesome-Cdn-Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- Font-Awesome--Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+ <!-- Tailwind-Cdn-Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Form</title>
+</head>
+
+ <body style="font-family: poppins;" >
+   <div class="min-h-screen w-full bg-no-repeat bg-cover bg-fixed  bg-center " style="background-image: url('image4.jpg');">
+    <section class="text-gray-600 body-font ">
+        <div class="container px-5   py-[64px] mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 ">
+                <h1 class=" font-semibold text-5xl text-white ">Coding ,</h1>
+                <h1 class=" font-semibold text-4xl text-white">Your Future Partner !</h1>
+                <p class="leading-relaxed    mt-4 text-white md:w-[60%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, debitis?Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div
+                class="lg:w-2/6 md:w-1/2 backdrop-blur-sm bg-black/30 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 mr-5">
+             <form >
+                <h2 class="text-white text-xl  title-font mb-5 text-center font-semibold">Member Login
+                  </h2>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-200">Email</label>
+                   
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200
+                         text-base outline-none  py-1 px-3 leading-8 " required >  
+                </div>
+                <div class="relative mb-4">
+                    <label for="full-name"  class="leading-7 text-sm text-gray-200">Password</label>
+                    <input type="password" id="full-name" name="full-name" placeholder="Enter Your Password"
+                        class="w-full mt-2 sm:mt-0 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200
+                         text-base outline-none text-gray-700 py-1 px-3 leading-8" required>
+                </div>
+
+                <div class="flex justify-between w-full py-2">
+                    <div>
+                        <input  type="checkbox" id="checkbox" class="h-3 w-3 text-blue-600 focus:ring focus:border-blue-300">
+                        <label class="text-[13px] mt-1 sm:text-sm sm:mt-0  text-gray-200 ml-1" for="checkbox">Remember Me</label>
+                    </div>
+                    <span class="text-[13px] mt-1 sm:text-sm sm:mt-0 hover:underline cursor-pointer text-blue-600">Forgot password?</span>
+                </div>
+                    <button type="submit"
+                    class="w-full bg-black text-white p-2 mt-3 rounded-lg mb-6 border hover:bg-white/90 hover:text-black hover:border hover:border-gray-300">
+                    Sign in
+                  </button>
+                
+                <div class=" flex items-center -mt-1">
+                    <div class="  border-t border-gray-400 flex-grow"></div>
+                    <div class="mx-1 text-white/80">Or</div>
+                    <div class=" border-t border-gray-400 flex-grow"></div>
+                </div>
+                  <button
+            class="w-full border  border-gray-300 mt-3 text-white text-md p-2 rounded-lg mb-6 hover:bg-white/90 hover:text-black hover:border hover:border-gray-300">
+            <img src="google.svg" alt="img" class="w-6 h-6 inline mr-2 " />
+            Sign in with Google
+                </button>
+                <div class="text-center text-gray-400 text-sm">
+                    Dont'have an account?
+                    <span class="font-medium text-white text-md cursor-pointer hover:underline">Sign up for free</span>
+                  </div>
+                </div>
+            </form>
+            </div>
+        </div>       
+    </section>
+    
+<footer class="bg-black ">
+    <div class="w-full max-w-screen-xl mx-auto  md:py-5">
+        <span class="block text-md text-center py-2 text-white sm:text-center dark:text-gray-400">© Rafia 2023- All Rights Reserved.</span>
+    </div>
+</footer>
+
+</body> 
+</html>
