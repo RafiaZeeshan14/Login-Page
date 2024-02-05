@@ -10,8 +10,7 @@ This project provides a simple and visually appealing login page for users to en
 ## Features
 - User-friendly and responsive login interface
 - Utilizes Tailwind CSS for modern and customizable styling
-- Provides a clean and professional design for user authentication
-
+  
 ## Technologies Used
 This project makes use of the following technologies:
 - HTML
